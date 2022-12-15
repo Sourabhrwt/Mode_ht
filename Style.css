@@ -1,0 +1,610 @@
+
+/*.b{
+    border: 1px solid red;
+}
+
+
+/*
+------------------------------------------------------------
+section -First
+------------------------------------------------------------
+*/
+.nav{
+    background: black;
+    color: #f2f2f2;
+    height: 3vh; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 10px;    
+
+}
+.modest{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 70px;
+    font-weight: 800;
+    color: #f2f2f2;
+}
+.nav-bar a{
+margin:5px ;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #f2f2f2;
+    
+
+
+}
+
+.home{
+    border-radius: 9px;
+    padding: 14px;
+    box-shadow: 0 0 .2rem #00a800 ,
+    0 0 .2rem #fff,
+    0 0 2rem #00a800 ;
+ 
+    color: #00a800;
+    box-shadow: 0 0 2px #00a800 ,
+    
+
+}
+.about, .work, .team, .services, .features, .contact{
+    color: #f2f2f2;
+    padding: 1px;
+}
+   
+
+.nav-bar a:hover{
+    border-radius: 9px;
+    padding: 15px;
+    opacity: 0.5;
+    transition: .5s ease-in-out;
+
+}
+/*
+------------------------------------------------------------
+section -second
+------------------------------------------------------------
+*/
+
+.pic{
+    height: 100vh;
+background: url("rename.jpg");
+border: 2px solid black;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+justify-items: center;
+align-items: center;
+}
+.pic-2{
+   margin-right:415px;
+   margin-bottom: 200px;
+    width: 40vw;
+
+}
+.pic-head-1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 650;
+    font-size: larger;
+
+}
+.para-pic{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: small;
+}
+.view-more{
+    text-transform: uppercase;
+    color: white;
+    background: rgb(57, 54, 54);
+    padding: 5px 5px;
+    border: #0ca34b;
+    
+}
+.view-more:hover ,.view-tour:hover{
+    background: #0ca34b;
+    transition: .4s ease;
+    
+
+}
+.view-tour{
+    text-transform: uppercase;
+    color: white;
+    background: rgb(53, 46, 46);
+    padding: 5px 5px;
+    border: rgb(53, 46, 46);   
+
+}
+/*
+------------------------------------------------------------
+section -third
+------------------------------------------------------------
+*/
+.team{color: black;
+    height: 200vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+ .row{
+    display: flex;
+    height:70vh;
+    width: 97vw;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+ .column-2{
+    width: 40%;
+    margin-right: -100px;
+    margin-top: 90px;
+    
+ }
+ .team-head{
+    text-transform:uppercase ;
+    font-weight: 540;
+    padding-left: 20px ;
+    font-size: large;
+   
+    
+}
+.team-para{
+    font-size: small;
+}
+ .column-1{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    margin-right: -330px;
+    margin-top: 57px;
+    
+ }
+ .team-head-1{
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: 450;
+    padding: 0px 20px;
+}
+ .team-para-1{
+    font-size: small;
+    padding-right: 200px;
+    padding: 0 20px;
+
+ }
+ .icons{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+ }
+ 
+ .ic{display: flex;
+    justify-content:left;
+    align-items: center;
+    background: grey;
+    height: 25px;
+    color: white;
+    padding: 5px 15px;
+    opacity: 0.8;
+    
+    
+ }
+ i:hover{
+    opacity: 0.6;
+    
+ }
+ 
+ .line-break{
+    height: 1px;
+    color: grey;
+    opacity: 0.4;
+ } 
+ 
+ /*
+------------------------------------------------------------
+section - fourth
+------------------------------------------------------------
+*/
+
+
+ .four{
+    height: 60vh;
+ }
+.head-four{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding:0 170px;
+}
+
+.team-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right:167px;
+   
+}
+.team-four{
+    height: fit-content;
+    background-color: rgb(187, 181, 181);
+    justify-content: space-between;
+    
+}
+.team-team-head{
+    height: 2vh;
+font-size: large;
+padding: 5px 15px ;
+text-transform:uppercase ;
+font-weight: 400;
+letter-spacing: 2px;
+margin-top: 0px;
+
+}
+
+.team-team-para{
+    height: 2vh;
+    font-size: smaller;
+    margin-top:0px;
+    color:grey;
+
+
+}
+.team-four:hover{
+    background: black;
+    color: white;
+    transition: .7s ease;
+
+
+}
+/*
+------------------------------------------------------------
+section -Fifth  
+------------------------------------------------------------
+*/
+.fifth{
+    height: 100vh;
+    background: rgb(43, 52, 61); 
+       
+}
+.fifth-head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding:20px 170px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.row-5{
+    width: fit-content;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding:0 160px ;
+
+
+}
+.nat{
+    position: relative;
+    padding: 0 10px;
+  
+}
+.overlay{
+    width:85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: small;
+    padding: 15px;
+    text-align: center;
+
+}
+.nat:hover .overlay {
+    opacity: 0.8;
+    background: rgb(51, 50, 47)
+    
+  }
+.row-6{
+    width: fit-content;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 160px;
+margin-top: 15px;
+
+}
+.rat{
+    position: relative;
+    padding: 0px 10px;
+}
+
+.overlay-two{
+    width:85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: small;
+    padding: 15px;
+    text-align: center
+
+}
+.rat:hover .overlay-two {
+    opacity: 0.8;
+    background: rgb(51, 50, 47);
+
+    
+  }
+  .button-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    
+    
+  }
+  .btn-5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+    background: rgb(51, 50, 47);
+    border: 2px solid white;
+    height: 40px;
+    width: 150px;
+    border-radius: 7px;
+    
+    
+  }
+
+/*---------------------------------------------
+     sixth
+  ---------------------------------------------*/
+
+.container-sixth{
+    height: 85vh;
+}
+
+.head-sixth{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    padding:20px 170px;
+    color: black;
+    text-transform: uppercase;
+
+
+}
+.icon-parient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 25vh;
+    width: 90vw;
+}
+
+.icon-one{
+    height: 25vh;
+    width: 14vw;
+    padding: 0 9px;
+   
+
+}
+.icon-heading{
+    
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px;
+}
+.icon-para{
+    font-size: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+#solid-icons{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#30ba7f;
+    padding: 8px;
+}
+/*--------------------------------------------------------
+                   SEVENTH
+----------------------------------------------------------*/
+.container-seven{
+
+    height: 100vh;
+    background: rgb(43, 52, 61);
+
+}
+.head-seven{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:10px;
+    padding:0 170px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.image-parent{
+    width: 85vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+}
+.image-parent-second{
+    padding: 0px 10px;
+}
+
+.image-head{
+    color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.image-para{
+    color: white;
+    font-size: 10px;
+}
+
+/*---------------------------------------------------------
+                    EIGHTH
+----------------------------------------------------------*/
+.map{
+    height: 100vh;
+
+}
+.map-head{
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    padding: 20px 175px;
+
+}
+
+/*----------------------------------------------------------
+                 NINTH
+-------------------------------------------------------------*/
+.contact-us{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    background: whitesmoke;
+}
+.contact-head-para{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+    padding: 0 170px;
+
+}
+.contact-head{
+    width: 20vw;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    
+}
+.contact-para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
+   
+    
+}
+/****************************************************************
+        ** CONTACT BOX **
+***************************************************************/
+.contact-box{
+    height: 50vh;
+    width: 60vw;
+    background-color: whitesmoke;
+    border:whitesmoke ;
+}
+.contact-dialog-box{
+    background: rgb(227, 222, 222);
+    border:rgb(227, 222, 222) ;
+    height: 4vh;
+}
+.message-dialog-box{
+    margin-left: 70px;
+    margin-top: 15px;
+    height: 30vh;
+    width: 31vw;
+    background: rgb(227, 222, 222);
+    border:rgb(227, 222, 222) ;
+}
+.message{
+    margin-top: 5px;
+}
+.message-head{
+    margin-left: 70px;
+   
+}
+.btn-send-message{
+    height: 30px;
+    margin: 10px 70px 70px;
+    color: white ;
+    background: #0c7638;
+    border: #0c7638;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-send-message:hover{
+    background: #036103;
+
+}
+
+/****************************************************************
+        ** Footer **
+***************************************************************/
+
+.foot-er{
+    background: rgb(43, 52, 61);
+    font-size:7px ;
+    height: 10vh;
+    color: white;
+}
+.foot-parent{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-around;
+
+}
+.ic{
+    background: rgb(43, 52, 61);
+    font-size: 12px;
+   margin-top: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
